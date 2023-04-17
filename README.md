@@ -46,3 +46,5 @@ It's possible to read and write modbus registers. Also it constatly pools data f
 The controller part of the code responsible for keeping battery voltage at the predefined value. (to prolong li-ion battery life)
 
 **Important note:** during operation inverter produces a lot of RF noise. To make communnication with inverter more stable you might want to attach small capactor to RX pin of the ESP8266 (GPIO13). It helps to filter out RF noise.
+
+https://www.dessmonitor.com/ main website for data logging (official PowMr dongle)
