@@ -733,7 +733,7 @@ void setup() {
   // ArduinoOTA.setHostname("myesp8266");
 
   // No authentication by default
-  ArduinoOTA.setPassword("firefoxx");
+  // ArduinoOTA.setPassword("foxyfox3");
 
   // Password can be set with it's md5 value as well
   // MD5(admin) = 21232f297a57a5a743894a0e4a801fc3
@@ -1213,5 +1213,9 @@ https://github.com/Paxy/SmartESS-proxy/blob/main/ProcessInverterData.java
 
 Another useful project:
 https://github.com/Paxy/SmartESS-proxy
+
+Main website that collects info:
+https://www.dessmonitor.com/
+
 
 */
