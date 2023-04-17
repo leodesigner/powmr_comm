@@ -45,3 +45,4 @@ The code in this repo providing a wifi MQTT-modbus bridge. It compiles in Platfo
 It's possible to read and write modbus registers. Also it constatly pools data from inverter and publishes varios state variables like battery voltage, pv power, etc. You can store that data later in influxdb/postgres and visualize in Grafana.
 The controller part of the code responsible for keeping battery voltage at the predefined value. (to prolong li-ion battery life)
 
+**Important note:** during operation inverter produces a lot of RF noise. To make communnication with inverter more stable you might want to attach small capactor to RX pin of the ESP8266 (GPIO13). It helps to filter out RF noise.
