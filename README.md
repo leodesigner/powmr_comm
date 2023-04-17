@@ -42,4 +42,6 @@ The code in this repo providing a wifi MQTT-modbus bridge. It compiles in Platfo
 >#define SS_RX_PIN   D7    // GPIO13
 
 
-It's possible to read and write modbus registers. Also it constatly pools data from inverter and publishes varios state variables like battery voltage, pv power, etc. You can store that data later in inlixdb/postgres and visualize in Grafana.
+It's possible to read and write modbus registers. Also it constatly pools data from inverter and publishes varios state variables like battery voltage, pv power, etc. You can store that data later in influxdb/postgres and visualize in Grafana.
+The controller part of the code responsible for keeping battery voltage at the predefined value. (to prolong li-ion battery life)
+
