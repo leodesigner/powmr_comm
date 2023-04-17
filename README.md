@@ -10,7 +10,7 @@ Applicable to POWMR POW-HVM3.2H-24V inverter series.
 The device communicates with RS232 modbus protocol at 2400 baud (1 stop bit, no parity control).
 PowMr device slave id is 5.
 
-RJ45 connector is located on the left side of the inverter has the following pinout:
+RJ45 connector is located on the left side of the inverter and it has the following pinout:
 
 - pin 8 (Brown)          Ground 
 - pin 4 (Blue)           +12V
