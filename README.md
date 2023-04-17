@@ -36,3 +36,10 @@ Original WiFi dongle sends two requests every few seconds to monitor inverter st
 
 Please refer wifi bridge code for state registers description.
 
+The code in this repo providing a wifi MQTT-modbus bridge. It compiles in Platformio. The hardware part is simple esp8266 module with RS232 level converter attached to the 
+>#define SS_TX_PIN   D8    // GPIO15
+>
+>#define SS_RX_PIN   D7    // GPIO13
+
+
+It's possible to read and write modbus registers. Also it constatly pools data from inverter and publishes varios state variables like battery voltage, pv power, etc. You can store that data later in inlixdb/postgres and visualize in Grafana.
