@@ -7,7 +7,7 @@ Here is the reverse engineering of the communication protocol. The infomation mi
 Applicable to POWMR POW-HVM3.2H-24V inverter series.
 - user manual: https://powmr.com/index.php?dispatch=attachments.getfile&attachment_id=368
 
-It communicates with RS232 modbus protocol at 2400 baud (1 stop bit, no parity control).
+The device communicates with RS232 modbus protocol at 2400 baud (1 stop bit, no parity control).
 PowMr device slave id is 5.
 
 RJ45 connector is located on the left side of the inverter has the following pinout:
