@@ -36,6 +36,7 @@ Original WiFi dongle sends two requests every few seconds to monitor inverter st
 
 Please refer wifi bridge code for state registers description.
 
+# ESP8266 MQTT Modbus RS232 bridge
 The code in this repo providing a wifi MQTT-modbus bridge. It compiles in Platformio. The hardware part is simple esp8266 module with RS232 level converter attached to the 
 >#define SS_TX_PIN   D8    // GPIO15
 >
