@@ -47,4 +47,6 @@ The controller part of the code responsible for keeping battery voltage at the p
 
 **Important note:** during operation inverter produces a lot of RF noise. To make communnication with inverter more stable you might want to attach small capactor to RX pin of the ESP8266 (GPIO13). It helps to filter out RF noise.
 
+# Additional references:
 https://www.dessmonitor.com/ main website for data logging (official PowMr dongle)
+https://powmr.com/ PowMr website with manuals
