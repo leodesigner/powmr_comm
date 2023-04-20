@@ -52,3 +52,5 @@ The controller part of the code responsible for keeping battery voltage at the p
 https://www.dessmonitor.com/ main website for data logging (official PowMr dongle)
 
 https://powmr.com/ PowMr website with manuals
+
+https://github.com/syssi/esphome-smg-ii ESPHome project to monitor and control a ISolar/EASUN SMG II inverter via RS232
