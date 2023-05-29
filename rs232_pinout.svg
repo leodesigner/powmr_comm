@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20"
+   height="20"
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="rs232_pinout.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="90.509668"
+     inkscape:cx="7.4688154"
+     inkscape:cy="10.523738"
+     inkscape:window-width="3840"
+     inkscape:window-height="2063"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3">
+    <inkscape:grid
+       type="xygrid"
+       id="grid198"
+       originx="0"
+       originy="0"
+       snapvisiblegridlinesonly="true"
+       spacingx="0.5"
+       spacingy="0.5" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="Pattern">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop36628" />
+      <stop
+         style="stop-color:#aa4400;stop-opacity:1;"
+         offset="0.49590874"
+         id="stop36630" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1134"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffd500;stop-opacity:1;"
+         offset="0"
+         id="stop1132" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#Pattern"
+       id="linearGradient36626"
+       x1="16.5"
+       y1="15"
+       x2="17.5"
+       y2="15"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="RJ45"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="fill:none"
+     sodipodi:insensitive="true">
+    <g
+       inkscape:groupmode="layer"
+       id="layer3"
+       inkscape:label="Pins"
+       sodipodi:insensitive="true">
+      <path
+         style="fill:#502d16;stroke:#502d16;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 3,17 V 13"
+         id="path369"
+         inkscape:label="Pin 8"
+         sodipodi:insensitive="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 5,17 V 13"
+         id="path371"
+         inkscape:label="Pin 7"
+         sodipodi:insensitive="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 7,17 V 13"
+         id="path373"
+         inkscape:label="Pin 6"
+         sodipodi:insensitive="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 9,17 V 13"
+         id="path375"
+         inkscape:label="Pin 5"
+         sodipodi:insensitive="true" />
+      <path
+         style="fill:#000080;stroke:#000080;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 11,17 V 13"
+         id="path377"
+         inkscape:label="Pin 4"
+         sodipodi:insensitive="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 13,17 V 13"
+         id="path379"
+         inkscape:label="Pin 3"
+         sodipodi:insensitive="true" />
+      <path
+         style="fill:#aa4400;stroke:#aa4400;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 15,17 V 13"
+         id="path381"
+         inkscape:label="Pin 2"
+         sodipodi:insensitive="true" />
+      <path
+         style="fill:#d45500;stroke:url(#linearGradient36626);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 17,17 V 13"
+         id="path383"
+         inkscape:label="Pin 1"
+         sodipodi:insensitive="true" />
+      <path
+         id="path23228"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         inkscape:label="8"
+         d="m 2,9 v 3 H 4 V 9 Z m 0,1.5 h 2"
+         sodipodi:insensitive="true" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 16,9 h 1 v 3 h -1 2"
+         id="path23222"
+         inkscape:label="1"
+         sodipodi:insensitive="true" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer4"
+       inkscape:label="LEDs"
+       sodipodi:insensitive="true">
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         id="rect22683"
+         width="3"
+         height="4"
+         x="16"
+         y="2"
+         inkscape:label="LED 2"
+         sodipodi:insensitive="true" />
+      <rect
+         style="fill:#ffff00;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-dasharray:none;stroke-opacity:1"
+         id="rect453"
+         width="3"
+         height="4"
+         x="1"
+         y="2"
+         inkscape:label="LED 1"
+         sodipodi:insensitive="true" />
+    </g>
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1,18 V 7 H 5 V 2 h 10 v 5 h 4 v 11 z"
+       id="path328"
+       inkscape:label="Outline"
+       sodipodi:insensitive="true" />
+  </g>
+</svg>
