@@ -17,6 +17,7 @@ RJ45 connector is located on the left side of the inverter and it has the follow
 - pin 2 (Orange)         RX (data to inverter)
 - pin 1 (White Orange)   TX (data from inverter)
 
+<img src="rs232_pinout.svg" width="512px" />
 
 Modbus Holding registers to control inverter:
 - 5017 charger source priority (range 0-3, settings menu 16)
