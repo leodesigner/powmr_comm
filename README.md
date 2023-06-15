@@ -30,6 +30,10 @@ Modbus Holding registers to control inverter:
 - 5025 comeback utility mode voltage (SBU) (0.5 volts step, settings menu 12) 
 - 5026 comeback battery mode voltage (SBU) (0.5 volts step, settings menu 13)
 
+  Thanks to Andrii Ganzevych we have more complete registers list here:
+
+  https://github.com/odya/esphome-powmr-hybrid-inverter/blob/main/docs/registers-map.md
+
 
 Original WiFi dongle sends two requests every few seconds to monitor inverter state. 
 - read 45 registers (func 3) from slave 5 starting from address 4501 (Decimal) (raw: 05031195002d9143)
