@@ -4,8 +4,25 @@ Would you like to monitor and control your PowMr solar hybrid inverter via MQTT?
 
 Here is the reverse engineering of the communication protocol. The infomation might be incomplete, feel free to contribute. All communications has been sniffed out of the original Wifi dongle.
 
-Applicable to POWMR POW-HVM3.2H-24V inverter series.
-- user manual: https://powmr.com/index.php?dispatch=attachments.getfile&attachment_id=368
+# Compatibility
+
+Tested with:
+
+- [**POW-HVM1.5H-12V**](https://powmr.com/products/all-in-one-inverter-charger-1500watt-220vac-12vdc)
+- **POW-HVM2.0H-12V**
+- [**POW-HVM2.4H-24V**](https://web.archive.org/web/20230329235125/https://powmr.com/inverters/all-in-one-inverter-chargers/powmr-2400watt-dc-24v-ac-220v-solar-inverter-charger)
+- [**POW-HVM3.2H-24V**](https://powmr.com/products/all-in-one-inverter-charger-3000w-220vac-24vdc)
+- [**POW-HVM10.2M**](https://powmr.com/products/hybrid-inverter-charger-10200w-200vac-48vdc)
+
+However, also other models that are supported by the [**WIFI-VM**](https://powmr.com/products/powmr-wifi-module-with-rs232-remote-monitoring-solution-wifi-vm) device should work: 
+
+- [**POW-HVM3.6M-24V**](https://powmr.com/products/hybrid-inverter-charger-3600w-220vac-24vdc)
+- [**POW-HVM4.2M-24V**](https://powmr.com/products/hybrid-inverter-charger-4200w-220vac-24vdc)
+- [**POW-HVM5.5K-48V**](https://powmr.com/products/all-in-one-inverter-charger-5500w-220vac-48vdc)
+- [**POW-HVM6.2M-48V**](https://powmr.com/products/hybrid-inverter-charger-6200w-220vac-48vdc)
+- [**POW-HVM8.2M**](https://powmr.com/products/hybrid-inverter-charger-8000w-220vac-48vdc)
+
+# Communication
 
 The device communicates with RS232 modbus protocol at 2400 baud (1 stop bit, no parity control).
 PowMr device slave id is 5.
