@@ -76,3 +76,5 @@ https://www.dessmonitor.com/ main website for data logging (official PowMr dongl
 https://powmr.com/ PowMr website with manuals
 
 https://github.com/syssi/esphome-smg-ii ESPHome project to monitor and control a ISolar/EASUN SMG II inverter via RS232
+
+https://github.com/odya/esphome-powmr-hybrid-inverter ESPHome config for various PowMr Hybrid Inverter models.
